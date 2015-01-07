@@ -66,7 +66,7 @@ class pygame2exe(py2exe.build_exe.py2exe): #This hack make sure that pygame defa
 class BuildExe:
     def __init__(self):
         #Name of starting .py
-        self.script = "gameexample.py"
+        self.script = "main.py"
  
         #Name of program
         self.project_name = "Game Example"
